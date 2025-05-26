@@ -377,6 +377,30 @@
                 font-size: 18px;
             }
         }
+
+        @media (max-width: 576px) {
+    /* Corrige título cortado */
+    .section-title {
+        white-space: normal; 
+        width: 100%;
+        text-align: center;
+        padding: 0 10px; /* Adiciona espaço nas laterais */
+        left: 0;
+        transform: none;
+    }
+
+    /* Ajusta overlay dos projetos */
+    .project-overlay {
+        padding: 20px !important; /* Reduz o padding */
+        justify-content: center; /* Centraliza conteúdo verticalmente */
+    }
+
+    /* Garante que texto não ultrapasse a tela */
+    .project-title, .project-desc {
+        max-width: 100% !important;
+        transform: none !important;
+    }
+}
     </style>
 </head>
 <body>
