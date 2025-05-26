@@ -555,10 +555,7 @@
                 videoObserver.observe(video);
             });
             
-            // Previne comportamento padrão do touchmove para melhor performance em mobile
-            document.body.addEventListener('touchmove', function(e) {
-                e.preventDefault();
-            }, { passive: false });
+           
         });
     </script>
 </body>
