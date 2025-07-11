@@ -479,6 +479,7 @@ function changePlaces() {
 const texts = [
   "Cientista de Dados",
   "Python e Machine Learning",
+  "R",
   "SQL",
   "Javascript",
   "HTML e CSS",
