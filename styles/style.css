@@ -524,7 +524,36 @@ div#iscoolImages img {
   border-radius: 5px;
 }
 
-
+@media screen and (max-width: 768px) {
+  div#iscool {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  div#iscoolTexts {
+    margin-left: 0;
+    margin-top: 20px;
+    flex-basis: auto;
+    width: 100%;
+  }
+  
+  div#dbgeral {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  div#dbgeralTexts {
+    margin-top: 20px;
+    flex-basis: auto;
+    width: 100%;
+  }
+  
+  div#dbgeral img {
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+  }
+}
 
 div#iscoolTexts {
   flex-direction: column;
