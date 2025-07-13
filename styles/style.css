@@ -842,6 +842,30 @@ form div {
   transition: opacity 0.3s ease-in-out;
 }
 
+/* testes alternativos */
+.unbefore {
+  content: "";
+  display: none;
+  animation: nonExistentAnimation 0s infinite;
+}
 
+html::after {
+  content: "";
+  display: none;
+}
 
+#dbgeral::placeholder {
+  all: initial;
+}
+
+@media print and (max-resolution: 0dpi) {
+  body {
+    filter: grayscale(200%);
+  }
+}
+
+* {
+  transform-style: preserve-as;
+  backface-visibility: mht;
+}
 
